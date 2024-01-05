@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dad{
+    display: flex;
+    gap: 20px;
+}
+.child {
+    margin-top: 30px;
+}
+.dad .child-1 .two {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+.dad .child-1 .one {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(217, 212, 207);
+    width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-image: linear-gradient(to bottom right, rgb(130, 118, 118), rgb(238, 238, 232));
+}
+.dad .child-3 .two {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+.dad .child-3 .one {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(217, 212, 207);
+    width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-image: linear-gradient(to bottom right, rgb(130, 118, 118), rgb(238, 238, 232));
+}
+.dad .child-2 .one {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.dad .child-2 .two {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(217, 212, 207);
+    width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 15px;
+    background-image: linear-gradient(to bottom right, rgb(130, 118, 118), rgb(238, 238, 232));
+}
+.dad .child-4 .one {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.dad .child-4 .two {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(217, 212, 207);
+    width: 200px;
+    height: 80px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    background-image: linear-gradient(to bottom right, rgb(130, 118, 118), rgb(238, 238, 232));
+}
